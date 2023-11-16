@@ -7,8 +7,8 @@ stdenv.mkDerivation {
   src = fetchFromGitHub {
     owner = "sa7mon";
     repo = "rollo-thermal";
-    rev = "";
-    sha256 = "";
+    rev = "91207ea";
+    sha256 = "08fk5a2vvvcvg0xwvimh6q8sca1grzxk9sdljxg2x2ak2vqjni51";
   };
 
   buildInputs = [ cups ];
